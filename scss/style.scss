@@ -1,9 +1,44 @@
-* {
+ 
+ * {
     margin: 0;
     padding: 0;
   }
-
  
+ $theme-colors: (
+  "primary" #dd5599,
+
+);
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+  @import "node_modules/bootstrap/scss/bootstrap";
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
   #dots{
     display:flex;
         width:146px;
@@ -211,8 +246,11 @@
 
 
 
-}
+
+
+
+
+
       
-
-
+}
 
