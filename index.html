@@ -15,37 +15,53 @@
 
   <!--Header Image-->
   <div class="row col-12">
-    <header><img class="img-fluid" src="img/Encabezado.jpg" alt="Encabezado">
+    <header><img class="img-fluid" src="img/Encabezado.jpg" alt="Encabezado"></header>
   </div>
 
   <!--Collapse nav button-->
   <nav class="navbar navbar-expand-lg bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white">Welcome</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <div class="container-fluid"> 
+      <a class="navbar-brand" href="Index.html">Welcome</a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <ul class="navbar-nav collapse navbar-collapse" id="navbarNav">
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="Index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="contact.html">Contactanos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="About us.html">Sobre nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="Login.html">Entrar</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="Register.html">Registrarse</a>
-        </li>
-      </ul>
+      <div class="navbar-collapse collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Aboutus.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Entrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Register.html">Registrate</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> 
+        </ul>
+      </div>
     </div>
   </nav>
-  </header>
+
+
+
+
   <main class="container">
 
     <!--First section, includes Title, Welcome Information and Dog paw animation -->
@@ -85,7 +101,7 @@
 
   <!--Redes-->
 
-  <div class="row col-12">
+  <footer class="blockquote-footer row col-12">
     <div class="container text-center">
       <div class="card">
         <div class="card-header">
@@ -98,13 +114,9 @@
           <p>Angelo Flores</p>
           <p>Angelof@outlook.cl</p>
         </address>
-        <footer class="blockquote-footer">
-          <p>Direccion: ///////////// //////</p>
-          <p>Region: //////////////////</p>
           <cite title="Source Title">Derechos reservados</cite>
         </footer>
         </blockquote>
-      </div>
     </div>
 </body>
 
