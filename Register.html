@@ -53,39 +53,37 @@
 
   <!--Formulary-->
   <main class="container">
-    <div class="row col-13 my-5">
-      <section section class="my-5">
-        <div class="container">
-          <form class="border border-info p-2 mb-2 border-opacity-25 border border-2 rounded-4">
-            <legend class="text-center my-5 fw-bold form-label fst-italic">Registrate</legend>
-            <div class="mb-3">
-              <label for="text" class="form-label fst-italic">Nombre de usuario</label>
-              <input type="text" class="form-control" id="Usuario" aria-describedby="Usuario" required
-                placeholder="Nombre de usuario">
+    <div class="row col-12 my-5">
+      <section>
+        <form class="border border-info p-2 mb-2 border-opacity-25 border border-2 rounded-4 container col-6 my-5">
+          <legend class="text-center my-5 fw-bold form-label fst-italic">Registrate</legend>
+          <div class="mb-3">
+            <label for="text" class="form-label fst-italic">Nombre de usuario</label>
+            <input type="text" class="form-control" id="Usuario" aria-describedby="Usuario" required
+              placeholder="Nombre de usuario">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fst-italic">Email:</label>
+            <input type="email" class="form-control" id="email" aria-describedby="Email" required
+              placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="inputPassword5" class="form-label">Contraseña</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <div id="passwordHelpBlock" class="form-text">
+              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces,
+              special characters, or emoji.
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label fst-italic">Email:</label>
-              <input type="email" class="form-control" id="email" aria-describedby="Email" required
-                placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="inputPassword5" class="form-label">Contraseña</label>
+              <label for="inputPassword5" class="form-label">Confirmar contraseña</label>
               <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
               <div id="passwordHelpBlock" class="form-text">
                 Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces,
                 special characters, or emoji.
               </div>
-              <div class="mb-3">
-                <label for="inputPassword5" class="form-label">Confirmar contraseña</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-                <div id="passwordHelpBlock" class="form-text">
-                  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces,
-                  special characters, or emoji.
-                </div>
-                <button type="submit"
-                  class="btn btn-primary bg-secondary position-relative top-0 start-50 translate-middle my-5 ">Enviar</button>
-          </form>
-        </div>
+              <button type="submit"
+                class="btn btn-primary bg-secondary position-relative top-0 start-50 translate-middle my-5 ">Enviar</button>
+        </form>
       </section>
     </div>
     <div class="row justify-content-center">
